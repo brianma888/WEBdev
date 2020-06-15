@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <title>Survey page</title>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+        <style type="text/css">
+            body{
+                background-color: cornflowerblue;
+            }
+            #centre{
+                background-color:white;
+                text-align: center;
+                margin-right: 40  ;
+                margin-left: 40  ;
+                margin-top: 30;
+                display: block;
+                height: 1600px;
+            }
+            #note{
+                font-weight: 700;
+            }
+            #personal-details{
+                text-align: left;
+                font-family: "Shadows Into Light", cursive;
+                
+            }
+            #Check{
+                text-align: left;
+                font-family: "Shadow Into Light", cursive;
+            }
+            #photo{
+                position: relative;
+                left: 700px;
+                top: -900px;
+            }
+            .photo{
+                position:relative;
+                left: 1000px;
+                top: -1400px;
+            }
+            #additional{
+                text-align: left;
+            }
+            #essay-section{
+                text-align: left;
+                
+            }
+            #last-line{
+                position: relative;
+                top:20px;
+            }
+            #finish{
+                position: relative;
+                top: 20px;
+                font-family: "Shadow Into Light", cursive;
+                font-weight: 400;
+                font-size: 150%;
+            }
+            #submit{
+                position: relative;
+                top: 8px;
+                font-size: 200%;
+            }
+            #video{
+                position: relative;
+                left: 500px;
+                top: -550px;
+            }
+            #enter{
+                
+            }
+            .longInput{
+                width: 550px;
+            }
+            .LongInput{
+                width: 550px;
+            }
+        
+        
+        
+        
+        </style>
+    
+    
+    
+    
+    
+    
+    
+    </head>
+    
+    
+    
+    
+    
+    <body>
+        <div id="centre">
+            <h2>Application For COCM Missionary Internship</h2>
+            <p><span id="note">Note</span>: Form is to be completed at least 21 days prior to date</p>
+            <img src="cocm.png">
+            <hr>
+            
+            
+            <div id="personal-details">
+            <h2>Personal Details</h2>
+            
+            <p>Name:<input type="text" placeholder="Enter name here"></p>
+            <p>Address:<input type="text" placeholder="Enter your address here"></p>
+            <p>Email:<input type="text" placeholder="Enter your email address here"></p>
+            <p>Your personality:
+                <select>
+                    <option>Emotionally introverted</option>
+                    <option>Emotionally extroverted</option>
+                    <option>Logically introverted</option>
+                    <option>Logically extroverted</option>
+                
+                </select></p>
+            <p>Your gender:
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select></p>
+                
+            <p>Date of commerce of internship:<input type="text" placeholder="Enter the date here"></p>
+            
+            
+                
+            </div>
+            <hr>
+            <div id="Check">
+                <h2>Check all that apply</h2>
+                <p><input type="checkbox">I am committed to a full time missionary internship program.</p>
+                <p><input type="checkbox">I am teachable</p>
+                <p><input type="checkbox">I am ready to pour my heart and serve God</p>
+                <button id="ensure">Pay Attention</button>
+                <script>
+                    document.getElementById("ensure").onclick=function(){
+                        alert("Make sure you fulfill these qualities!")
+                    }
+                
+                </script>
+                <hr>
+            
+                
+            
+            
+            
+            
+            
+            </div>
+            <div id="additional">
+                <h2>Additional details</h2>
+                <p>Education:<input type="text" placeholder="Enter your University name"></p>
+                <p>Years in Christ:<input type="text"></p>
+            </div>
+            <hr>
+            <div id="essay-section">
+                <h2>Essay section</h2>
+                <p>In 200 words, explain why do you want to apply this missionary internship.</p>
+                <textarea class="longInput" cols="30" rows="10" placeholder="Enter Text Here"></textarea>
+                <p>Please upload the contact details of two references</p>
+                <textarea class="LongInput" cols="30" rows="10" placeholder="Enter Text Here"></textarea>
+                
+            </div>
+            <hr id="last-line">
+            <p id="finish">Thank you for your application form!</p>
+            <button id="submission">Submit Application</button>
+            
+            <button id="return">Back to introduction</button>
+            
+            <script type="text/javascript">
+                document.getElementById("submission").onclick=function(){
+                    alert("Application submitted, Thank You for your interest in the internship program!!");
+                    location.href="file:///Users/brianma888/Desktop/complete%20web%20developer%20course%20/Extension.html"
+                    
+                }
+                
+                document.getElementById("return").onclick=function(){
+                    location.href="file:///Users/brianma888/Desktop/complete%20web%20developer%20course%20/fellowship.html";
+                };
+                
+            
+            
+            </script>
+            
+            
+            
+            
+            
+        
+        
+        
+        </div>
+        <img class="photo" src="jesus.jpg">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/TYyZCCs5bJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     
+    
+    
+    
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+</html>
